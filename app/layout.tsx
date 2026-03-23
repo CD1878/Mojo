@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="nl" className={`${archivo.variable} ${oswald.variable}`}>
-      <body className="bg-background text-white font-sans antialiased flex flex-col min-h-screen" suppressHydrationWarning>
+      <body className="bg-background text-dark font-sans antialiased flex flex-col min-h-screen" suppressHydrationWarning>
         <Header />
         <main className="flex-grow">
           {children}

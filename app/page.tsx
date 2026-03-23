@@ -17,7 +17,7 @@ export default function Home() {
               priority
               referrerPolicy="no-referrer"
             />
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-dark/70">
               Het ultieme MOJO-moment: goed gezelschap, een glimlach, en een heerlijk speciaalbiertje in de hand. Reserveer jouw tafel via mojo-amsterdam.nl
             </p>
           </div>
@@ -26,12 +26,12 @@ export default function Home() {
               CAFE MOJO <br />
               <span className="text-accent">AMSTERDAM</span>
             </h1>
-            <div className="space-y-6 text-xl text-gray-300 font-light leading-relaxed">
+            <div className="space-y-6 text-xl text-dark/80 font-light leading-relaxed">
               <p>
                 Bij Café Mojo in Amsterdam Oost kun je van &apos;s ochtends tot &apos;s avonds laat binnen lopen. Op ons terras zit je de hele dag in de zon en binnen in ons restaurant of aan de bar zit je altijd lekker warm.
               </p>
               <p>
-                Het is de perfecte plek in Oost voor je dagelijkse kop koffie met een krantje of gewoon een lekkere <Link href="/lunch" className="text-white underline decoration-accent underline-offset-4 hover:text-accent transition-colors">lunch</Link>. Na je koffie wordt het vanzelf tijd voor een goede <Link href="/snacks" className="text-white underline decoration-accent underline-offset-4 hover:text-accent transition-colors">borrel</Link> of <Link href="/diner" className="text-white underline decoration-accent underline-offset-4 hover:text-accent transition-colors">diner</Link>. Ons assortiment speciaal bier is zo groot dat je een week nodig hebt voor een rondje kaart! Onze dinerkaart wisselt met de seizoenen mee. Een aantal klassiekers, zoals onze beroemde spareribs en de enige echte Mojo burger, verdwijnen natuurlijk nooit!
+                Het is de perfecte plek in Oost voor je dagelijkse kop koffie met een krantje of gewoon een lekkere <Link href="/lunch" className="text-dark font-medium underline decoration-accent underline-offset-4 hover:text-accent transition-colors">lunch</Link>. Na je koffie wordt het vanzelf tijd voor een goede <Link href="/snacks" className="text-dark font-medium underline decoration-accent underline-offset-4 hover:text-accent transition-colors">borrel</Link> of <Link href="/diner" className="text-dark font-medium underline decoration-accent underline-offset-4 hover:text-accent transition-colors">diner</Link>. Ons assortiment speciaal bier is zo groot dat je een week nodig hebt voor een rondje kaart! Onze dinerkaart wisselt met de seizoenen mee. Een aantal klassiekers, zoals onze beroemde spareribs en de enige echte Mojo burger, verdwijnen natuurlijk nooit!
               </p>
               <p>Tot vanavond?</p>
             </div>
@@ -40,7 +40,7 @@ export default function Home() {
                 href="https://guestplan.io/?i=cd98435eaadc38d4cc8a382b9a4545ef881b2ac3"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-block bg-white text-black px-10 py-5 text-sm font-heading tracking-widest hover:bg-gray-200 transition-colors"
+                className="inline-block bg-dark text-background px-10 py-5 text-sm font-heading tracking-widest hover:bg-accent hover:text-white transition-colors"
               >
                 RESERVEER DIRECT
               </a>
@@ -50,28 +50,28 @@ export default function Home() {
       </section>
 
       {/* Wist Je Dat Section */}
-      <section className="bg-black py-32">
+      <section className="bg-green text-background py-32">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl font-heading mb-20 text-center tracking-wide">WIST JE DAT...</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-16 max-w-5xl mx-auto">
             <div className="space-y-16">
               <div>
                 <h3 className="text-3xl font-heading text-accent mb-4 tracking-wide">AJAX</h3>
-                <p className="text-gray-300 text-lg">Alle wedstrijden van Ajax kijk je bij MOJO op <span className="text-accent">GROOT</span> scherm.</p>
+                <p className="text-background/90 text-lg">Alle wedstrijden van Ajax kijk je bij MOJO op <span className="text-accent">GROOT</span> scherm.</p>
               </div>
               <div>
                 <h3 className="text-3xl font-heading text-accent mb-4 tracking-wide">FEESTJE VIEREN?</h3>
-                <p className="text-gray-300 text-lg">Dat is mogelijk! <Link href="/mojo-afhuren" className="text-white underline hover:text-accent transition-colors">Klik hier</Link> om naar het aanvraagformulier te gaan.</p>
+                <p className="text-background/90 text-lg">Dat is mogelijk! <Link href="/mojo-afhuren" className="text-white underline hover:text-accent transition-colors">Klik hier</Link> om naar het aanvraagformulier te gaan.</p>
               </div>
             </div>
             <div className="space-y-16">
               <div>
                 <h3 className="text-3xl font-heading text-accent mb-4 tracking-wide">EVENTS</h3>
-                <p className="text-gray-300 text-lg">Volg al onze activiteiten op onze socials via <a href="https://instagram.com/mojo_amsterdam" className="text-white underline hover:text-accent transition-colors">Instagram</a> &amp; <a href="https://facebook.com/mojoamsterdam" className="text-white underline hover:text-accent transition-colors">Facebook</a></p>
+                <p className="text-background/90 text-lg">Volg al onze activiteiten op onze socials via <a href="https://instagram.com/mojo_amsterdam" className="text-white underline hover:text-accent transition-colors">Instagram</a> &amp; <a href="https://facebook.com/mojoamsterdam" className="text-white underline hover:text-accent transition-colors">Facebook</a></p>
               </div>
               <div>
                 <h3 className="text-3xl font-heading text-accent mb-4 tracking-wide">SPECIAAL BIER</h3>
-                <p className="text-gray-300 text-lg">Je bij ons geniet van heel veel <Link href="/bier" className="text-white underline hover:text-accent transition-colors">soorten speciaalbieren</Link> op fles en van de tap.</p>
+                <p className="text-background/90 text-lg">Je bij ons geniet van heel veel <Link href="/bier" className="text-white underline hover:text-accent transition-colors">soorten speciaalbieren</Link> op fles en van de tap.</p>
               </div>
             </div>
           </div>
@@ -82,11 +82,11 @@ export default function Home() {
       <section className="py-32">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-heading mb-10 tracking-wide">LOCATIE & OPENINGSTIJDEN</h2>
-          <p className="text-gray-300 mb-10 text-lg">
+          <p className="text-dark/80 mb-10 text-lg">
             Ringdijk 3<br />
             1097 AA Amsterdam
           </p>
-          <div className="space-y-2 text-gray-300 mb-16 text-lg">
+          <div className="space-y-2 text-dark/80 mb-16 text-lg">
             <p className="mb-4"><strong className="text-accent font-heading tracking-widest text-xl">Openingstijden</strong></p>
             <p>Maandag – Woensdag <br /> 12:00 - 00:00</p>
             <p>Donderdag <br /> 12:00 - 01:00</p>
@@ -96,9 +96,9 @@ export default function Home() {
           </div>
           <div className="mb-16">
             <p className="mb-4"><strong className="text-accent font-heading tracking-widest text-xl">Telefoonnummer</strong></p>
-            <a href="tel:0202331367" className="text-white hover:text-accent text-xl transition-colors">020 233 1367</a>
+            <a href="tel:0202331367" className="text-dark hover:text-accent text-xl transition-colors font-medium">020 233 1367</a>
           </div>
-          <Link href="/contact" className="inline-block border border-white text-white px-10 py-4 text-sm font-heading tracking-widest hover:bg-white hover:text-black transition-colors mb-24">
+          <Link href="/contact" className="inline-block border border-dark text-dark px-10 py-4 text-sm font-heading tracking-widest hover:bg-dark hover:text-background transition-colors mb-24">
             CONTACTFORMULIER
           </Link>
           
@@ -117,18 +117,18 @@ export default function Home() {
       </section>
 
       {/* Newsletter */}
-      <section className="bg-white text-black py-32">
+      <section className="bg-dark text-background py-32">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-heading mb-6 tracking-wide">MOJO NIEUWSBRIEF</h2>
-          <p className="text-gray-600 mb-12 text-lg">Meld je aan voor onze nieuwsbrief.</p>
+          <p className="text-background/80 mb-12 text-lg">Meld je aan voor onze nieuwsbrief.</p>
           <form className="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
             <input 
               type="email" 
               placeholder="Email Address" 
-              className="px-6 py-4 border border-gray-300 w-full focus:outline-none focus:border-black text-lg"
+              className="px-6 py-4 border border-background/30 bg-transparent text-background placeholder:text-background/50 w-full focus:outline-none focus:border-accent text-lg"
               required
             />
-            <button type="submit" className="bg-black text-white px-10 py-4 font-heading tracking-widest hover:bg-gray-800 transition-colors whitespace-nowrap">
+            <button type="submit" className="bg-accent text-white px-10 py-4 font-heading tracking-widest hover:bg-accent/90 transition-colors whitespace-nowrap">
               AANMELDEN
             </button>
           </form>
@@ -136,9 +136,9 @@ export default function Home() {
       </section>
 
       {/* Jobs */}
-      <section className="py-32 bg-black">
+      <section className="py-32 bg-accent text-white">
         <div className="text-center">
-          <Link href="/werken-bij-mojo" className="text-4xl md:text-5xl font-heading hover:text-accent transition-colors tracking-wide">
+          <Link href="/werken-bij-mojo" className="text-4xl md:text-5xl font-heading hover:text-dark transition-colors tracking-wide">
             Werken bij Café MOJO?
           </Link>
         </div>

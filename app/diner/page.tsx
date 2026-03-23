@@ -24,7 +24,7 @@ export default function Diner() {
           V = Vegetarian · VE = Vegan
         </div>
 
-        <hr className="border-white/10 mb-32" />
+        <hr className="border-dark/10 mb-32" />
 
         <h2 className="text-4xl font-heading mb-16 tracking-wide">MAIN COURSES</h2>
         <div className="space-y-12 mb-32">
@@ -39,7 +39,7 @@ export default function Diner() {
           <MenuItem title="Mojo special" description="Wisselende specialiteit van de chef" price="Prijs wisselt" />
         </div>
 
-        <hr className="border-white/10 mb-32" />
+        <hr className="border-dark/10 mb-32" />
 
         <h2 className="text-4xl font-heading mb-16 tracking-wide">SIDES</h2>
         <div className="space-y-12 mb-20">
@@ -52,7 +52,7 @@ export default function Diner() {
           <MenuItem title="Kroket of 4 mini frikandellen met frites" price="10,50" />
         </div>
 
-        <hr className="border-white/10 mb-32" />
+        <hr className="border-dark/10 mb-32" />
 
         <h2 className="text-4xl font-heading mb-16 tracking-wide">DESSERTS</h2>
         <div className="space-y-12 mb-20">
@@ -68,13 +68,13 @@ export default function Diner() {
           <p className="text-lg">SHOT €4,50 • LIMONCELLO SPRITZ €11,50</p>
         </div>
 
-        <div className="text-center text-sm text-gray-400 mb-20 space-y-2">
-          <p>Heeft u bepaalde dieetwensen of een allergie laat het ons weten. <a href="#" className="underline hover:text-white transition-colors">Bekijk hier onze allergieënkaart.</a></p>
-          <p>If you have any specific dietary requirements or allergies, please let us know. <a href="#" className="underline hover:text-white transition-colors">View our allergy menu here.</a></p>
+        <div className="text-center text-sm text-dark/70 mb-20 space-y-2">
+          <p>Heeft u bepaalde dieetwensen of een allergie laat het ons weten. <a href="#" className="underline hover:text-accent transition-colors">Bekijk hier onze allergieënkaart.</a></p>
+          <p>If you have any specific dietary requirements or allergies, please let us know. <a href="#" className="underline hover:text-accent transition-colors">View our allergy menu here.</a></p>
         </div>
 
         <div className="text-center mb-32">
-          <a href="#" className="inline-block bg-white text-black px-10 py-5 text-sm font-heading tracking-widest hover:bg-gray-200 transition-colors">
+          <a href="#" className="inline-block bg-dark text-background px-10 py-5 text-sm font-heading tracking-widest hover:bg-accent hover:text-white transition-colors">
             DINNER MENU (EN)
           </a>
         </div>

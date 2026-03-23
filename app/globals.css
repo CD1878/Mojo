@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-accent: #e5a93d;
-  --color-background: #111111;
+  --color-accent: #e87b00;
+  --color-background: #f4f1ea;
+  --color-dark: #2a2a2a;
+  --color-green: #1a3b2b;
   --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background-color: var(--color-background);
-  color: #ffffff;
+  color: var(--color-dark);
   font-family: var(--font-sans);
 }
 
@@ -18,3 +20,4 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
