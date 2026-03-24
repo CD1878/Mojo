@@ -47,7 +47,7 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`text-sm font-heading tracking-widest hover:text-accent transition-colors ${
+                  className={`text-sm font-heading font-bold tracking-widest hover:text-accent transition-colors ${
                     pathname === link.href ? 'text-accent' : 'text-dark'
                   }`}
                 >
@@ -112,7 +112,7 @@ export default function Header() {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`text-2xl font-heading tracking-widest ${
+                  className={`text-2xl font-heading font-bold tracking-widest ${
                     pathname === link.href ? 'text-accent' : 'text-dark'
                   }`}
                 >
