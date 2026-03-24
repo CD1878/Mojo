@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Newsletter from '@/components/Newsletter';
 
 export default function Home() {
   return (
@@ -140,17 +141,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="font-heading mb-6 tracking-wide">MOJO NIEUWSBRIEF</h2>
           <p className="text-background/80 mb-12 text-lg">Meld je aan voor onze nieuwsbrief.</p>
-          <form className="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
-            <input 
-              type="email" 
-              placeholder="Email Address" 
-              className="px-6 py-4 border border-background/30 bg-transparent text-background placeholder:text-background/50 w-full focus:outline-none focus:border-accent text-lg"
-              required
-            />
-            <button type="submit" className="bg-accent text-white px-10 py-4 font-heading tracking-widest hover:bg-accent/90 transition-colors whitespace-nowrap">
-              AANMELDEN
-            </button>
-          </form>
+          <Newsletter />
         </div>
       </section>
 
