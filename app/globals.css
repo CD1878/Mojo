@@ -7,7 +7,7 @@
   --color-green: #1a3b2b;
   --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
@@ -15,20 +15,21 @@ body {
   color: var(--color-dark);
   font-family: var(--font-sans);
   font-size: 14.24px;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-weight: 900; /* Extra bold to match the screenshots perfectly */
 }
 
 h1 {
   font-size: 56.96px;
-  font-family: var(--font-display);
+  line-height: 1.1;
 }
 
 h2 {
   font-size: 39.84px;
+  line-height: 1.2;
 }
-

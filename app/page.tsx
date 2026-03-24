@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
           <div className="space-y-10">
-            <h1 className="text-6xl md:text-7xl lg:text-[5.5rem] font-heading leading-[0.9] tracking-tight">
+            <h1 className="font-heading leading-[0.9] tracking-tight">
               CAFE MOJO <br />
               <span className="text-accent">AMSTERDAM</span>
             </h1>
@@ -52,7 +52,7 @@ export default function Home() {
       {/* Wist Je Dat Section */}
       <section className="bg-green text-background py-32">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-5xl font-heading mb-20 text-center tracking-wide">WIST JE DAT...</h2>
+          <h2 className="font-heading mb-20 text-center tracking-wide">WIST JE DAT...</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-16 max-w-5xl mx-auto">
             <div className="space-y-16">
               <div>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
             <div className="text-left space-y-10">
-              <h2 className="text-4xl md:text-5xl font-heading tracking-wide uppercase">LOCATIE &<br/>OPENINGSTIJDEN</h2>
+              <h2 className="font-heading tracking-wide uppercase">LOCATIE &<br/>OPENINGSTIJDEN</h2>
               
               <div className="text-dark/90 text-lg font-bold">
                 <p>Ringdijk 3</p>
@@ -138,7 +138,7 @@ export default function Home() {
       {/* Newsletter */}
       <section className="bg-dark text-background py-32">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-heading mb-6 tracking-wide">MOJO NIEUWSBRIEF</h2>
+          <h2 className="font-heading mb-6 tracking-wide">MOJO NIEUWSBRIEF</h2>
           <p className="text-background/80 mb-12 text-lg">Meld je aan voor onze nieuwsbrief.</p>
           <form className="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
             <input 
@@ -157,7 +157,7 @@ export default function Home() {
       {/* Jobs */}
       <section className="py-32 bg-accent text-white">
         <div className="text-center">
-          <Link href="/werken-bij-mojo" className="text-4xl md:text-5xl font-heading hover:text-dark transition-colors tracking-wide">
+          <Link href="/werken-bij-mojo" className="font-heading hover:text-dark transition-colors tracking-wide" style={{ fontSize: '39.84px' }}>
             Werken bij Café MOJO?
           </Link>
         </div>
