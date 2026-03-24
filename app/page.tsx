@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="pt-28">
+    <div>
       {/* Hero Section */}
-      <section className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 lg:py-24">
+      <section className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-16 lg:pt-8 lg:pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 items-center">
           <div className="space-y-6">
             <Image

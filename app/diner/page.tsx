@@ -7,9 +7,9 @@ export default function Diner() {
       {/* STARTERS & BITES */}
       <section className="bg-green text-background pt-12 pb-24 md:py-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <p className="text-sm font-bold uppercase tracking-widest text-center mb-12 opacity-80">DINNER</p>
-          <h2 className="mb-20 text-center tracking-wide font-display text-accent uppercase">STARTERS & BITES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16">
+          <p className="text-sm font-bold uppercase tracking-widest text-center mb-8 lg:mb-12 opacity-80">DINNER</p>
+          <h2 className="mb-8 lg:mb-20 text-center tracking-wide font-display text-accent uppercase">STARTERS & BITES</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-8 lg:mb-16">
             <MenuItem title="ZUURDESEMBROOD (V)" description="Met huisgemaakte kruidenboter" price="6,50" />
             <MenuItem title="KROKANTE BLOEMKOOL (VE)" description="Met frisse peterselie dressing" price="11,25" />
             <MenuItem title="GAMBA PIRI PIRI" description="Gamba’s met kop, pittige olie & knoflook" price="13,75" />
@@ -27,8 +27,8 @@ export default function Diner() {
       {/* MAIN COURSES */}
       <section className="bg-background text-green py-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">MAIN COURSES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">MAIN COURSES</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-8 lg:mb-16">
             <MenuItem title="WISSELENDE STAMPPOT" description="Vraag de bediening naar welke stamppot" price="18,50" />
             <MenuItem title="VEGABURGER (V)" description="Beyond meat burger, Cheddar, tomaat, augurk, Mojo-saus & frites" price="20,95" />
             <MenuItem title="BIEFSTUK" description="Jus de veau, frites en sla" price="25,50" />
@@ -45,14 +45,14 @@ export default function Diner() {
       {/* SIDES & KIDS */}
       <section className="bg-green text-background py-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">SIDES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-32">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">SIDES</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16 lg:mb-32">
             <MenuItem title="GROENE SALADE" price="5,50" />
             <MenuItem title="FRITES" price="4,95" />
           </div>
 
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">FOR THE KIDS</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">FOR THE KIDS</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-8 lg:mb-16">
             <MenuItem title="KROKET OF 4 MINI FRIKANDELLEN MET FRITES" price="10,50" />
           </div>
         </div>
@@ -61,8 +61,8 @@ export default function Diner() {
       {/* DESSERTS */}
       <section className="bg-accent text-background py-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="mb-20 tracking-wide font-display text-background text-center uppercase">DESSERTS</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-24">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-background text-center uppercase">DESSERTS</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-12 lg:mb-24">
             <MenuItem title="AFFOGATO" description="Bolletje vanille-ijs met espresso; homemade Limoncello (+€3,50)" price="6,50" />
             <MenuItem title="TARTE TATIN VAN PEER" description="karamel, vanille ijs" price="9,95" />
             <MenuItem title="ESPRESSO MARTINI" description="Koffie, Kahlua en Eristoff vodka" price="12,75" />
@@ -70,7 +70,7 @@ export default function Diner() {
             <MenuItem title="KAASPLANKJE" description="Diverse kazen met notenbrood & appelstroop" price="14,50" />
           </div>
 
-          <div className="text-center bg-[#ca6b00] p-12 mb-20 max-w-2xl mx-auto rounded-lg shadow-inner">
+          <div className="text-center bg-[#ca6b00] p-8 lg:p-12 mb-10 lg:mb-20 max-w-2xl mx-auto rounded-lg shadow-inner">
              <p className="text-sm uppercase tracking-widest font-bold mb-4 opacity-90">SHOT €4,50 • LIMONCELLO SPRITZ €11,50</p>
              <h3 className="text-4xl font-display uppercase tracking-wide">HUISGEMAAKTE LIMONCELLO</h3>
           </div>

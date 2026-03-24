@@ -57,8 +57,8 @@ ${motivatie || 'Geen extra motivatie opgegeven.'}
   };
 
   return (
-    <div className="pt-28 min-h-screen">
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 md:py-32">
+    <div className="min-h-screen">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-24 lg:pt-8 lg:pb-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start max-w-6xl mx-auto">
           {/* Tekst Gedeelte */}
           <div className="space-y-8">

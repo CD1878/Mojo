@@ -4,26 +4,26 @@ export default function Lunch() {
   return (
     <div className="pt-28 bg-background text-green min-h-screen">
       
-      <section className="pt-12 pb-24 md:py-32 px-4">
+      <section className="pt-4 pb-24 lg:pt-8 lg:pb-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <p className="text-sm font-bold uppercase tracking-widest text-center mb-16 opacity-80">LUNCH</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-center mb-8 lg:mb-16 opacity-80">LUNCH</p>
           
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">ZUURDESEMBROOD</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-32">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">ZUURDESEMBROOD</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16 lg:mb-32">
             <MenuItem title="SMASHED AVOCADO (V)" description="Geitenkaas, cherry tomaat" price="13,00" />
             <MenuItem title="BLTC" description="Bacon, sla, tomaat, kip & chili-mayonaise" price="13,50" />
             <MenuItem title="HUISGEMAAKTE GEHAKTBAL" description="Coleslaw, zuur, jus" price="13,50" />
           </div>
 
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">TOAST</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-32">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">TOAST</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16 lg:mb-32">
             <MenuItem title="KAAS" price="6,50" />
             <MenuItem title="HAM & KAAS (V)" price="7,50" />
             <MenuItem title="CROQUE MONSIEUR" description="Ham, Gruyère & bechamelsaus" price="9,95" />
           </div>
 
-          <h2 className="mb-20 tracking-wide font-display text-accent text-center uppercase">LUNCH CLASSICS & BITES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-32">
+          <h2 className="mb-8 lg:mb-20 tracking-wide font-display text-accent text-center uppercase">LUNCH CLASSICS & BITES</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16 lg:mb-32">
             <MenuItem title="SOEP VAN DE DAG" price="7,50" />
             <MenuItem title="UITSMIJTER" description="+ €1,00 per topping: Ham, kaas, bacon, tomaat" price="9,50" />
             <MenuItem title="EGGS BENEDICT" description="Brioche, gepocheerd ei, ham & hollandaisesaus" price="13,95" />
@@ -33,7 +33,7 @@ export default function Lunch() {
             <MenuItem title="VEGABURGER (V)" description="Beyond meat burger, Cheddar, tomaat, augurk, Mojo-saus & frites" price="19,50" />
           </div>
 
-          <div className="text-center text-sm mb-12 space-y-3 opacity-90 max-w-2xl mx-auto border-t border-accent/20 pt-16">
+          <div className="text-center text-sm mb-12 space-y-3 opacity-90 max-w-2xl mx-auto border-t border-accent/20 pt-10 lg:pt-16">
             <p>Heeft u bepaalde dieetwensen of een allergie laat het ons weten. <a href="#" className="underline hover:text-accent transition-colors">Bekijk hier onze allergieënkaart.</a></p>
             <p>If you have any specific dietary requirements or allergies, please let us know. <a href="#" className="underline hover:text-accent transition-colors">View our allergy menu here.</a></p>
             <p className="pt-4 font-bold tracking-wider">V = Vegetarian · VE = Vegan</p>

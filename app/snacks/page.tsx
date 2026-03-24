@@ -6,8 +6,8 @@ export default function Snacks() {
       
       <section className="pt-12 pb-24 md:py-32 px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="mb-32 text-center tracking-wide font-display text-accent uppercase">SNACKS</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-32">
+          <h1 className="mb-16 lg:mb-32 text-center tracking-wide font-display text-accent uppercase">SNACKS</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 mb-16 lg:mb-32">
             <MenuItem title="OLIJVEN" price="6,50" />
             <MenuItem title="OUDE KAAS" price="7,50" />
             <MenuItem title="ZUURDESEM KRUIDENBOTER" price="6,50" />
@@ -25,7 +25,7 @@ export default function Snacks() {
             <MenuItem title="BITTERGARNITUUR 24" price="30,00" />
           </div>
 
-          <div className="text-center text-sm mb-12 space-y-3 opacity-90 max-w-2xl mx-auto border-t border-accent/20 pt-16">
+          <div className="text-center text-sm mb-12 space-y-3 opacity-90 max-w-2xl mx-auto border-t border-accent/20 pt-10 lg:pt-16">
             <p>Heeft u bepaalde dieetwensen of een allergie laat het ons weten. <a href="#" className="underline hover:text-white transition-colors">Bekijk hier onze allergieënkaart.</a></p>
             <p>If you have any specific dietary requirements or allergies, please let us know. <a href="#" className="underline hover:text-white transition-colors">View our allergy menu here.</a></p>
             <p className="pt-4 font-bold text-accent italic">(Snacks zijn tot 22:00 uur te bestellen)</p>
