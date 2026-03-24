@@ -35,10 +35,10 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="text-sm font-bold space-x-2">
-          <Link href="/cookiebeleid" className="hover:text-accent transition-colors underline">Cookiebeleid</Link>
+        <div className="flex justify-center items-center text-sm font-bold space-x-2">
+          <Link href="/cookiebeleid" className="hover:text-accent transition-colors underline underline-offset-4">Cookiebeleid</Link>
           <span>-</span>
-          <Link href="/privacy-policy" className="hover:text-accent transition-colors underline">Privacy Policy</Link>
+          <Link href="/privacy-policy" className="hover:text-accent transition-colors underline underline-offset-4">Privacy Policy</Link>
         </div>
 
         <div className="text-sm font-bold">

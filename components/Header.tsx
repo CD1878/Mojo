@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showAnnouncement, setShowAnnouncement] = useState(true);
   const pathname = usePathname();
 
   const navLinks = [
@@ -22,11 +23,20 @@ export default function Header() {
   return (
     <>
       {/* Announcement Bar */}
-      <div className="bg-dark text-white text-center py-2 text-sm font-sans">
-        <Link href="/werken-bij-mojo" className="hover:text-accent transition-colors">
-          Werken bij Café Mojo? Klik hier
-        </Link>
-      </div>
+      {showAnnouncement && (
+        <div className="bg-dark text-white text-center py-2 text-sm font-sans relative">
+          <Link href="/werken-bij-mojo" className="hover:text-accent transition-colors">
+            Werken bij Café Mojo? Klik hier
+          </Link>
+          <button 
+            onClick={() => setShowAnnouncement(false)} 
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors p-1"
+            aria-label="Sluit melding"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      )}
 
       <header className="sticky top-0 z-50 bg-background border-b border-dark/10">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">

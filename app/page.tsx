@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="pt-28">
       {/* Hero Section */}
-      <section className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <section className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 items-center">
           <div className="space-y-6">
             <Image
@@ -80,38 +80,57 @@ export default function Home() {
 
       {/* Location & Hours */}
       <section className="py-32">
-        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-heading mb-10 tracking-wide">LOCATIE & OPENINGSTIJDEN</h2>
-          <p className="text-dark/80 mb-10 text-lg">
-            Ringdijk 3<br />
-            1097 AA Amsterdam
-          </p>
-          <div className="space-y-2 text-dark/80 mb-16 text-lg">
-            <p className="mb-4"><strong className="text-accent font-heading tracking-widest text-xl">Openingstijden</strong></p>
-            <p>Maandag – Woensdag <br /> 12:00 - 00:00</p>
-            <p>Donderdag <br /> 12:00 - 01:00</p>
-            <p>Vrijdag <br /> 12:00 - 03:00</p>
-            <p>Zaterdag <br /> 11:00 - 02:00</p>
-            <p>Zondag <br /> 11:00 - 23:00</p>
-          </div>
-          <div className="mb-16">
-            <p className="mb-4"><strong className="text-accent font-heading tracking-widest text-xl">Telefoonnummer</strong></p>
-            <a href="tel:0202331367" className="text-dark hover:text-accent text-xl transition-colors font-medium">020 233 1367</a>
-          </div>
-          <Link href="/contact" className="inline-block border border-dark text-dark px-10 py-4 text-sm font-heading tracking-widest hover:bg-dark hover:text-background transition-colors mb-24">
-            CONTACTFORMULIER
-          </Link>
-          
-          {/* Map Placeholder */}
-          <div className="w-full h-[600px] bg-gray-900 overflow-hidden">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.852924155106!2d4.925916915802661!3d52.35481947978393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60971b1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sRingdijk%203%2C%201097%20AA%20Amsterdam!5e0!3m2!1sen!2snl!4v1620000000000!5m2!1sen!2snl" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen={false} 
-              loading="lazy"
-            ></iframe>
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+            <div className="text-left space-y-10">
+              <h2 className="text-4xl md:text-5xl font-heading tracking-wide uppercase">LOCATIE &<br/>OPENINGSTIJDEN</h2>
+              
+              <div className="text-dark/90 text-lg font-bold">
+                <p>Ringdijk 3</p>
+                <p>1097 AA Amsterdam</p>
+              </div>
+              
+              <div className="space-y-6 text-dark text-lg font-bold">
+                <p className="text-accent mb-2">Openingstijden</p>
+                <div>
+                  <p>Maandag – Woensdag</p>
+                  <p className="text-dark">12:00 - 00:00</p>
+                </div>
+                <div>
+                  <p>Donderdag</p>
+                  <p className="text-dark">12:00 - 01:00</p>
+                </div>
+                <div>
+                  <p>Vrijdag</p>
+                  <p className="text-dark">12:00 - 03:00</p>
+                </div>
+                <div>
+                  <p>Zaterdag</p>
+                  <p className="text-dark">11:00 - 02:00</p>
+                </div>
+                <div>
+                  <p>Zondag</p>
+                  <p className="text-dark">11:00 - 23:00</p>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-accent mb-2 text-lg">Telefoonnummer</p>
+                <a href="tel:0202331367" className="text-accent underline underline-offset-4 text-xl font-bold hover:text-dark transition-colors">020 233 1367</a>
+              </div>
+            </div>
+
+            <div className="w-full h-full min-h-[600px] bg-gray-200 relative">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.852924155106!2d4.925916915802661!3d52.35481947978393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6a5af562ec877%3A0x6bba30f2fddab7f6!2sCaf%C3%A9%20Mojo!5e0!3m2!1snl!2snl!4v1700000000000!5m2!1snl!2snl" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0, position: 'absolute', top: 0, left: 0 }} 
+                allowFullScreen={false} 
+                loading="lazy"
+                title="Mojo Google Map"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
