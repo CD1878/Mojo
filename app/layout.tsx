@@ -11,6 +11,7 @@ const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
 const roboto = Roboto({ weight: ['300', '400', '500', '700'], subsets: ['latin'], variable: '--font-roboto' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.mojo-amsterdam.nl'),
   title: 'Café Mojo - Amsterdam-Oost',
   description: 'Kom naar Café Mojo, een populaire ontmoetingsplek in Amsterdam-Oost.',
 };
