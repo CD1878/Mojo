@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CookieConsent from '@/components/CookieConsent';
 
 const archivo = Archivo({ subsets: ['latin'], variable: '--font-archivo' });
 const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <CookieConsent />
         
         <Script
           id="guestplan-widget"
